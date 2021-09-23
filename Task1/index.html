@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServerSea</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Karla:wght@300&family=Rubik:wght@400;800&display=swap" rel="stylesheet">
+
+    <script>
+        $(document).ready(function () {
+            $("#menuTrigger").click(function () {
+
+                $("#navMenu").toggle("slide ");
+            });
+        });
+
+    </script>
+
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <img src="https://www.serversea.com/images/home/logo.jpg">
+        <div>
+            <p><img src="https://www.serversea.com/images/home/us.png"> USD</p>
+            <p> <i class="fas fa-user"></i> Member Login</p>
+            <p><i class="fas fa-shopping-cart"></i></p>
+            <p id="cartNumber">0</p>
+        </div>
+    </header>
+
+    <div id="blue">
+
+        <nav class="navbar">
+            <div>
+                <p>MENU</p>
+                <button id="menuTrigger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <div id="navMenu">
+                <ul class="navLinksList">
+                    <li><a href="#">Hosting Plans</a></li>
+                    <li><a href="#">Reseller Hosting</a></li>
+                    <li><a href="#">Domains</a></li>
+                    <li><a href="#">VPS</a></li>
+                    <li><a href="#">Dedicated Servers</a></li>
+                    <li><a href="#">SSL</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div>
+
+            <h2 style="font-weight:lighter;">GRAB OUR EXCLUSIVE DEALS</h2>
+            <h1 style="font-weight: bolder; margin: -10px auto;">HOST UNLIMITED DOMAINS</h1>
+            <h2 style="font-weight:lighter;">PAY LESS AND SAVE BIG</h2>
+
+            <button>SIGNUP TODAY</button>
+
+        </div>
+
+    </div>
+
+    <div id="dont-miss">
+        <span>
+            <h1>DON’T MISS</h1>
+            <h1>THE CHANCE</h1>
+        </span>
+        <h3>Thousands of domains get registered daily grab yours untill it is taken</h3>
+        <span>
+            <div>
+
+                <h4 style="color: #0080cf;">. com</h4>
+                <p>$10.99</p>
+            </div>
+            <div>
+
+                <h4 style="color: #60238c;">. net</h4>
+                <p>$13.99</p>
+            </div>
+            <div>
+
+                <h4>. org</h4>
+                <p>$12.49</p>
+            </div>
+        </span>
+        <div>
+            <form action="#">
+
+                <input type="text" placeholder="We help find the best domain">
+                <button>Search</button>
+                <span>
+
+                    <label>
+                        <input type="radio" name="check" value="always" />Recommendation
+                    </label>
+                    <label>
+                        <input type="radio" name="check" value="never" />is Registered?
+                    </label>
+                    <label>
+                        <input type="radio" name="check" value="costChange" />Check Whois
+                    </label>
+                </span>
+            </form>
+        </div>
+
+
+    </div>
+    <div id="t1" class="center-large">
+        <h3 style="display: inline;"> BEST WEB HOSTING & DOMAIN</h3>
+        <h3 style="color: #103dbe; display: inline"> FOR EVERY WEBSITE</h3>
+        <p style="color: #666; display: block;font-weight: lighter;font-size: large;"> We do not claim to be the
+            cheapest but, QUALITY does not come cheap.</p>
+    </div>
+
+    <div class="cards">
+        <div>
+            <img src="https://www.serversea.com/images/home/shared-icon.png">
+            <h4>Shared Hosting</h4>
+            <span>
+                <p>300 GB</p>
+                <p> Web Space</p>
+            </span>
+            <span>
+                <p>Unmetered</p>
+                <p> Bandwidth</p>
+            </span>
+            <span>
+                <p>1 FREE</p>
+                <p>Domain</p>
+            </span>
+            <span>
+                <p>Shared SSL</p>
+                <p> Enabled</p>
+            </span>
+            <p>Only</p>
+            <span>
+                <p style="color: #666666;font-size: 24px;">$</p>
+                <h2> 3.77</h2>
+            </span>
+            <p> PER MONTH</p>
+            <button style="padding: 15px 30px; margin-bottom: 15px;">Buy Now</button>
+            <div class="yellow-div">
+                <p>Pay online</p>
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-amex"></i>
+                <i class="far fa-credit-card"></i>
+                <i class="fab fa-paypal"></i>
+            </div>
+
+        </div>
+
+        <div>
+            <img src="https://www.serversea.com/images/home/unlimited-icon.png">
+            <h4>Unlimited Hosting
+            </h4>
+            <span>
+                <p>5</p>
+                <p> Addon Domains</p>
+            </span>
+            <span>
+                <p>Unlimited </p>
+                <p> Web Space</p>
+            </span>
+            <span>
+                <p>Unlimited </p>
+                <p> Bandwidth</p>
+            </span>
+            <span>
+                <p>1 FREE</p>
+                <p>Domain</p>
+            </span>
+            <span>
+                <p>Shared SSL</p>
+                <p> Enabled</p>
+            </span>
+            <p>Only</p>
+            <span>
+                <p style="color: #666666;font-size: 24px;">$</p>
+                <h2> 4.93</h2>
+            </span>
+            <p> PER MONTH</p>
+            <button style="padding: 15px 30px; margin-bottom: 15px;">Buy Now</button>
+            <div class="yellow-div">
+                <p>Pay online</p>
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-amex"></i>
+                <i class="far fa-credit-card"></i>
+                <i class="fab fa-paypal"></i>
+            </div>
+
+        </div>
+
+        <div>
+            <img src="https://www.serversea.com/images/home/vps.png">
+            <h4>VPS Hosting</h4>
+            <span>
+                <p>50 GB</p>
+                <p> Web Space</p>
+            </span>
+            <span>
+                <p>3 TB</p>
+                <p> Bandwidth</p>
+            </span>
+            <span>
+                <p>3 CORE</p>
+                <p> CPU</p>
+            </span>
+            <span>
+                <p>1 GB</p>
+                <p> RAM</p>
+            </span>
+            <span>
+                <p>1 Dedicated</p>
+                <p> IP</p>
+            </span>
+            <p>Only</p>
+            <span>
+                <p style="color: #666666;font-size: 24px;">$</p>
+                <h2> 35.20</h2>
+            </span>
+            <p> PER MONTH</p>
+            <button style="padding: 15px 30px; margin-bottom: 15px;">Buy Now</button>
+            <div class="yellow-div">
+                <p>Pay online</p>
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-amex"></i>
+                <i class="far fa-credit-card"></i>
+                <i class="fab fa-paypal"></i>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="center-large" id="t2">
+        <h3 style="display: inline;"> WHY CHOOSE</h3>
+        <h3 style="color: #103dbe; display: inline"> SERVERSEA</h3>
+        <h3 style="display: inline;"> AS YOUR</h3>
+        <h3 style="color: #103dbe; display: inline"> WEB HOSTING</h3>
+        <h3 style="display: inline;"> PROVIDER?</h3>
+        <p style="color: #666; display: block;font-weight: lighter;font-size: large; margin-top: 10px;">We provide the
+            best web hosting services from small business to entrepreneurs.</p>
+    </div>
+
+    <div class="why-cards">
+        <div class="cirle-img left-img">
+            <img src="https://www.serversea.com/images/home/webhost-icon.png">
+        </div>
+        <div class="left-text">
+            <h4>WORLD'S FASTEST GROWING WEB HOSTING COMPANY</h4>
+            <p>ServerSea is the fastest-growing web hosting company across the globe. Since 2003 ServerSea has
+                successfully
+                managed to establish its brand name in the world of web hosting. ServerSea offers reliable and cheap web
+                hosting, domain name registration, VPS, dedicated servers, reseller hosting and SSL certificates.</p>
+        </div>
+    </div>
+
+
+    <div class="why-cards">
+        <div class="right-text">
+            <h4>OFFERING 30 DAYS TRIAL HOSTING</h4>
+            <p>At ServerSea, we understand that sometimes you can’t evaluate the quality of service until you try it.
+                This is why, we offer our customers complete flexibility to cancel the plan within 30 days and get a
+                full refund. Shoot us a quick message on our help desk and let us help you get things rolling.</p>
+        </div>
+        <div class="cirle-img right-img">
+            <img src="https://www.serversea.com/images/home/days-icon.png">
+        </div>
+    </div>
+
+
+    <div class="why-cards">
+        <div class="cirle-img left-img">
+            <img src="https://www.serversea.com/images/home/free-domain-icon.png">
+        </div>
+        <div class="left-text">
+            <h4>WE ARE OFFERING FREE DOMAIN FOR LIFE</h4>
+            <p>We offer FREE domain registration on all our selected shared hosting plans. With ServerSea, you can enjoy
+                hosting and a free domain registration with a TLD of (.COM, .NET or .ORG). Book our domain registration
+                services today and experience super-fast website speed and top-notch service.</p>
+        </div>
+    </div>
+
+
+    <div class="why-cards">
+        <div class="right-text">
+            <h4>FREE DOMAIN TRANSFER</h4>
+            <p>At ServerSea, apart from focusing on site speed, security and support we also offer 100% FREE domain
+                transfer services. If you have an existing domain and would like to transfer it to our servers, we will
+                do it for you absolutely free. Need more clarity around how it’s done? Get in touch with our team today!
+            </p>
+        </div>
+        <div class="cirle-img right-img">
+            <img src="https://www.serversea.com/images/home/transfer-icon.png">
+        </div>
+    </div>
+
+
+    <div class="why-cards">
+        <div class="cirle-img left-img">
+            <img src="https://www.serversea.com/images/home/website-icon.png">
+        </div>
+        <div class="left-text">
+            <h4>FREE WEBSITE MIGRATION</h4>
+            <p>Our Platinum Plan now allows you to move your website to ServerSea without any additional costs. By
+                keeping everything centralized in a single place, our Platinum Plan saves you from all the hassles. Our
+                experts are available 24/7 to ensure you have a great experience while moving your website on our
+                servers.</p>
+        </div>
+
+    </div>
+
+    <div class="grey-clouds">
+        <h1>WHAT WE GUARANTEE ?</h1>
+        <div class="gurantee-box">
+            <div>
+                <img src="https://www.serversea.com/images/home/guarantee-icon.png">
+                <h3>Technical Support</h3>
+                <p>Our certified technical support team is available for you 24/7, 365 days a year. We welcome questions
+                    and suggestions anytime!</p>
+            </div>
+            <div>
+                <img src="https://www.serversea.com/images/home/uptime-icon.png">
+                <h3>99.9% Uptime</h3>
+                <p>We guarantee 99.9% network uptime with Safe & Secure connectivity. Get started in minutes
+                    and enjoy our exclusive Free Trial offer now</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="t1" style="text-align: center; font-family: 'rubik';font-weight: bolder;">
+        <h1 style="display: inline;">OUR</h1>
+        <h1 style="display: inline; color: #103dbe;">BEST SERVICE</h1>
+    </div>
+
+    <div class="services">
+
+        <div>
+            <img src="https://www.serversea.com/images/home/hosting-btm-icon.png">
+            <h2>Web Hosting</h2>
+            <p>Now you can host your small to medium websites with our budget-friendly web hosting plans. Enjoy a
+                30-day, risk free trial along with top-class support and secure hosting solutions in both Linux and
+                Windows.</p>
+        </div>
+
+        <div>
+            <img src="https://www.serversea.com/images/home/domain-btm-icon.png">
+            <h2>Domain Registration</h2>
+            <p>We are here to help you acquire a domain name before someone else grab it. From generic domain TLD’s to
+                country specific TLD’s, you can register your domain name with us at the most economical prices.</p>
+        </div>
+
+        <div>
+            <img src="https://www.serversea.com/images/home/vps-btm-icon.png">
+            <h2>VPS Hosting</h2>
+            <p>Our managed VPS Hosting plans from static to cloud are available in varied sizes built on robust
+                infrastructure and with different technical components to meet your web requirements.</p>
+        </div>
+
+
+        <div>
+            <img src="https://www.serversea.com/images/home/reseller-btm-icon.png">
+            <h2>Reseller Hosting</h2>
+            <p>Start and build your own web hosting business. Become ServerSea reseller by selling our web hosting
+                services to your customers. Operate under your own brand name and enjoy complete control..</p>
+        </div>
+
+        <div>
+            <img src="https://www.serversea.com/images/home/reseller-btm-icon.png">
+            <h2>Dedicated Servers</h2>
+            <p>Want complete control of your web hosting server? With our robust and reliable infrastructure for
+                dedicated servers, you can enjoy uninterrupted access to your server and its resources.</p>
+        </div>
+
+        <div>
+            <img src="https://www.serversea.com/images/home/reseller-btm-icon.png">
+            <h2>SSL Certificates</h2>
+            <p>We know how much important it is for you to keep your site secure. Now you can purchase professional and
+                trusted SSL Certificates from ServerSea and secure your site within a few minutes.</p>
+        </div>
+
+
+    </div>
+
+    <div id="footer-search">
+        <div>
+            <h1 style="font-size: 3.7em;">SIGNUP</h1>
+            <h3 style="font-size: 1.5em;">FOR NEWSLETTER</h3>
+
+        </div>
+
+        <form action="#">
+            <input type="text" placeholder="Type your email address">
+            <button style="display: none;">SUBSCRIBE!</button>
+        </form>
+    </div>
+
+    <div id="footer">
+        <div>
+            <img src="https://www.serversea.com/images/home/ftr-logo.png">
+        </div>
+
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Mission Statement</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Datacenter</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Guarantee</a></li>
+                <li><a href="#">Why ServerSea</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Terms of Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Knowledge Base</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+
+
+        <div id="footer-buttons">
+            <a href="#"> <img src="https://www.serversea.com/images/home/fb-btn.png"></a>
+            <a href="#"> <img src="https://www.serversea.com/images/home/ttr-btn.png"></a>
+        </div>
+
+    </div>
+
+    <div id="footer-cr">
+        <p>© Copyright 2003-2021 ServerSea. All rights reserved</p>
+
+        <a href="">
+            <p>Design & Developed by ServerSea</p>
+        </a>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
